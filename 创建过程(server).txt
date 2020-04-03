@@ -1,0 +1,18 @@
+1、创建node项目
+  1>创建server文件夹
+  2>进入server文件夹
+  3>初始化node项目 npm init -y,生成package.json
+  4>创建index.js入口文件
+  5>在package.json中"scripts": 增加 "serve":"nodemon index.js",
+  6>安装nodemon npm i -g nodemon 全局安装，以后node项目就不需要再安装
+  7>安装 express,mongoose, cors[允许跨域].npm i express@next mongoose cors
+  8>支持文件上传
+    npm i multer
+  9>支持密码散列(mongoose.Schema用)
+    npm i bcryptjs
+  10>支持token生成
+    npm i jsonwebtoken
+  11>支持报错处理方法
+    npm i http-assert
+  12>支持单词复数转单数首字母大写
+    npm i inflection --save
